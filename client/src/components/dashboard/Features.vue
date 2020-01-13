@@ -72,7 +72,7 @@ export default {
       } catch (e) {
         console.error(e.message)
       }
-      this.msg = "Image saved at '/home/lazar/Desktop/images'"
+      this.msg = "Image saved at '[APP_ROOT]/client/src/assets/images' folder"
     },
     async open() {
       try {
