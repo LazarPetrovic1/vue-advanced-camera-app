@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>RandomApp</title>
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"
+      integrity="sha256-zmfNZmXoNWBMemUOo1XUGFfc0ihGGLYdgtJS3KCr/l0="
+      crossorigin="anonymous"
+    >
+    <link
+      href="https://fonts.googleapis.com/css?family=Reenie+Beanie&display=swap"
+      rel="stylesheet"
+    >
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    >
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
+    >
+    <title>RandomApp</title>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous">
+    </script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous">
+    </script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous">
+    </script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/animateCSS/1.2.2/jquery.animatecss.min.js"
+      integrity="sha256-6Y9lLtx2OHZt0+DkvdwtM0x2zEWo847aXBQNWO4xKco="
+      crossorigin="anonymous">
+    </script>
+    <!-- <script src="./src/seriously/seriously.js" charset="utf-8"></script>
+    <script src="./src/seriously/effects/seriously.accumulator.js"></script>
+  	<script src="./src/seriously/effects/seriously.ascii.js"></script>
+  	<script src="./src/seriously/effects/seriously.blend.js"></script>
+    <script src="./src/seriously/effects/seriously.blur.js"></script>
+  	<script src="./src/seriously/effects/seriously.brightness-contrast.js"></script>
+  	<script src="./src/seriously/effects/seriously.channels.js"></script>
+    <script src="./src/seriously/effects/seriously.checkerboard.js"></script>
+  	<script src="./src/seriously/effects/seriously.chroma.js"></script>
+  	<script src="./src/seriously/effects/seriously.color-select.js"></script>
+    <script src="./src/seriously/effects/seriously.color.js"></script>
+  	<script src="./src/seriously/effects/seriously.colorcomplements.js"></script>
+  	<script src="./src/seriously/effects/seriously.colorcube.js"></script>
+    <script src="./src/seriously/effects/seriously.crop.js"></script>
+  	<script src="./src/seriously/effects/seriously.directionblur.js"></script>
+  	<script src="./src/seriously/effects/seriously.displacement.js"></script>
+    <script src="./src/seriously/effects/seriously.dither.js"></script>
+  	<script src="./src/seriously/effects/seriously.edge.js"></script>
+  	<script src="./src/seriously/effects/seriously.emboss.js"></script>
+    <script src="./src/seriously/effects/seriously.exposure.js"></script>
+  	<script src="./src/seriously/effects/seriously.expression.js"></script>
+  	<script src="./src/seriously/effects/seriously.fader.js"></script>
+    <script src="./src/seriously/effects/seriously.falsecolor.js"></script>
+  	<script src="./src/seriously/effects/seriously.filmgrain.js"></script>
+  	<script src="./src/seriously/effects/seriously.freeze.js"></script>
+    <script src="./src/seriously/effects/seriously.fxaa.js"></script>
+  	<script src="./src/seriously/effects/seriously.gradientwipe.js"></script>
+  	<script src="./src/seriously/effects/seriously.hex.js"></script>
+    <script src="./src/seriously/effects/seriously.highlights-shadows.js"></script>
+  	<script src="./src/seriously/effects/seriously.hue-saturation.js"></script>
+  	<script src="./src/seriously/effects/seriously.invert.js"></script>
+    <script src="./src/seriously/effects/seriously.kaleidoscope.js"></script>
+  	<script src="./src/seriously/effects/seriously.layers.js"></script>
+  	<script src="./src/seriously/effects/seriously.linear-transfer.js"></script>
+    <script src="./src/seriously/effects/seriously.lumakey.js"></script>
+  	<script src="./src/seriously/effects/seriously.lut.js"></script>
+  	<script src="./src/seriously/effects/seriously.mirror.js"></script>
+    <script src="./src/seriously/effects/seriously.nightvision.js"></script>
+  	<script src="./src/seriously/effects/seriously.noise.js"></script>
+  	<script src="./src/seriously/effects/seriously.opticalflow.js"></script>
+    <script src="./src/seriously/effects/seriously.panorama.js"></script>
+  	<script src="./src/seriously/effects/seriously.pixelate.js"></script>
+  	<script src="./src/seriously/effects/seriously.polar.js"></script>
+    <script src="./src/seriously/effects/seriously.repeat.js"></script>
+  	<script src="./src/seriously/effects/seriously.ripple.js"></script>
+  	<script src="./src/seriously/effects/seriously.scanlines.js"></script>
+    <script src="./src/seriously/effects/seriously.select.js"></script>
+  	<script src="./src/seriously/effects/seriously.sepia.js"></script>
+  	<script src="./src/seriously/effects/seriously.simplex.js"></script>
+    <script src="./src/seriously/effects/seriously.sketch.js"></script>
+  	<script src="./src/seriously/effects/seriously.split.js"></script>
+  	<script src="./src/seriously/effects/seriously.temperature.js"></script>
+    <script src="./src/seriously/effects/seriously.throttle.js"></script>
+  	<script src="./src/seriously/effects/seriously.tone.js"></script>
+  	<script src="./src/seriously/effects/seriously.tvglitch.js"></script>
+    <script src="./src/seriously/effects/seriously.vibrance.js"></script>
+  	<script src="./src/seriously/effects/seriously.vignette.js"></script>
+  	<script src="./src/seriously/effects/seriously.whitebalance.js"></script> -->
+  </head>
+  <body>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>

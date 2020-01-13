@@ -1,0 +1,4 @@
+{
+  "mongoURI": "mongodb+srv://test:test@vue-express-node-mongo-daep6.mongodb.net/test?retryWrites=true&w=majority",
+  "jwtSecret": "secret"
+}
