@@ -4,6 +4,10 @@
     id="about"
   >
     <h2>RandomApp using React and Redux</h2>
+    <p class="mt-2">
+      An app for taking pictures, saving them to the app and the local device and editing them using a web editor.<br>
+      Hope you have fun (^_^) and thanks for checking out my app!!!
+    </p>
     <p class='mt-2'>Created on: {{dayMade}}</p>
     <p>Version: 1.0.0</p>
     <router-link class='btn btn-block btn-primary p-2' :to="{ name: 'Landing' }">Back</router-link>
@@ -22,7 +26,7 @@ export default {
   },
   computed: {
     dayMade() {
-      return moment().format("DD.MM.YYYY")
+      return moment(this.date).format("DD.MM.YYYY")
     }
   }
 }
