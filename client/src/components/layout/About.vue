@@ -3,7 +3,7 @@
     class='container text-center animated bounceInDown p-3 shadow border-left border-bottom border-primary'
     id="about"
   >
-    <h2>RandomApp using React and Redux</h2>
+    <h2>RandomApp using Vue.js</h2>
     <p class="mt-2">
       An app for taking pictures, saving them to the app and the local device and editing them using a web editor.<br>
       Hope you have fun (^_^) and thanks for checking out my app!!!
