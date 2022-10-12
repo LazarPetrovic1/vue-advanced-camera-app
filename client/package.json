@@ -13,7 +13,7 @@
     "@toast-ui/vue-image-editor": "^1.0.2",
     "axios": "^0.19.0",
     "bootstrap-vue": "^2.2.0",
-    "fabric": "^1.6.7",
+    "fabric": "^5.2.4",
     "moment": "^2.24.0",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1"
